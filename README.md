@@ -1,4 +1,4 @@
-# mm-test
+# mm-api-test
 
 Projeto com o fim de utilizar as metodologias de teste unitarios junto ao desenvolvimento com angularJS.
 Esse projeto vai ser voltado exclusivamente para estudos junto a tecnologias de teste, sem fins de desenvolvimento
