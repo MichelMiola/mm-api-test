@@ -1,12 +1,36 @@
 # mm-api-test
 
-Projeto com o fim de utilizar as metodologias de teste unitarios junto ao desenvolvimento com angularJS.
+Projeto com o fim de utilizar as metodologias de teste unitários junto ao desenvolvimento com angularJS.
 Esse projeto vai ser voltado exclusivamente para estudos junto a tecnologias de teste, sem fins de desenvolvimento
 de componentes ou projetos profissionais.
 
-## As tecnologias que vão estar sendo usadas no primeiro momento:
+## API(s) de teste usada(s):
 
 - [jasmine](http://jasmine.github.io/)
 - [karma](https://karma-runner.github.io/0.13/index.html)
 - [angular-mocks](https://github.com/angular/bower-angular-mocks)
+
+## Comandos do projeto:
+
+Instalação de todas as dependências do projeto.
+
+```bash
+$ npm install
+```
+
+### Tasks do grunt:
+
+Task que vai baixar todas as dependências do projeto, e criar toda a estrutura do mesmo:
+
+```bash
+$ grunt
+```
+
+Task que vai rodar o karma, para start todos os testes unitários:
+
+```bash
+$ grunt tests
+```
+
+
 
