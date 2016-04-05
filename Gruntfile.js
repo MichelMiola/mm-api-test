@@ -140,7 +140,7 @@ module.exports = function(grunt) {
   grunt.registerTask("default", ["clean:build", "download", "compile"]);
   grunt.registerTask("compile", ["html2js:appHtml","copy:main", "dev:concat"]);
   grunt.registerTask("download", ["bower-install-simple:install"]);
-  grunt.registerTask("tests" ["karma:unit"])
+  grunt.registerTask("tests" ,["karma:unit"])
   grunt.registerTask("dev:concat", ["concat:libsAppJS", "concat:libsAppCSS", "concat:modulosApp"]);
 
 
