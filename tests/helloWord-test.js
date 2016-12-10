@@ -51,7 +51,7 @@ describe("Test hello word", function () {
             $httpBackend.flush();
         }));
 
-        it("Test return save - Controller)", inject(function (SAVE_MOCK) {
+        it("Test return save - Controller", inject(function (SAVE_MOCK) {
             $scope.saveTeste(SAVE_MOCK.nome).then(function(){
                 expect('Michel Miola').toEqual($scope.resultSave);
             });
