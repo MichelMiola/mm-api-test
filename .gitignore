@@ -1,11 +1,10 @@
 # Created by .ignore support plugin (hsz.mobi)
-*/node_modules
-*/bower_components
-npm-debug.log
-cache.appcache
+/node_modules
+/bower_components
+
 
 # IntelliJ
 .idea/
 *.iml
-mm-api-test/build/
+build/
 

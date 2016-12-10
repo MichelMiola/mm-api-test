@@ -1,6 +1,3 @@
-/**
- * Created by mmiola on 03/04/16.
- */
 describe("Test hello word", function () {
 
     beforeEach(module('app'));
@@ -47,14 +44,14 @@ describe("Test hello word", function () {
             });
         });
 
-        it("Test return save(SERVICE)", inject(function (SAVE_MOCK) {
+        it("Test return save - Service", inject(function (SAVE_MOCK) {
             $helloWordService.save(SAVE_MOCK.nome).then(function(result){
                 expect('Michel Miola').toEqual(result);
             });
             $httpBackend.flush();
         }));
 
-        it("Test return save(CONTROLLER)", inject(function (SAVE_MOCK) {
+        it("Test return save - Controller)", inject(function (SAVE_MOCK) {
             $scope.saveTeste(SAVE_MOCK.nome).then(function(){
                 expect('Michel Miola').toEqual($scope.resultSave);
             });
