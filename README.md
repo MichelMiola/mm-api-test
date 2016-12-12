@@ -26,7 +26,7 @@ Task que vai baixar todas as dependências do projeto, e criar toda a estrutura 
 $ grunt
 ```
 
-Task que vai rodar o karma, para start todos os testes unitários:
+Tasks que vai rodar os testes unitários:
 
 - Rodando com karma
 ```bash
