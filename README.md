@@ -28,8 +28,13 @@ $ grunt
 
 Task que vai rodar o karma, para start todos os testes unitários:
 
+- Rodando com karma
 ```bash
-$ grunt tests
+$ grunt tests:karma
+```
+- Rodando com jasmine
+```bash
+$ grunt tests:jasmine
 ```
 
 
